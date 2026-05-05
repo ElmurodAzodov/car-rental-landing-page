@@ -81,7 +81,6 @@ header li {
 .hero form {
   width: 416px;
   height: 503px;
-  border: 1px solid red;
   background-color: snow;
   border-radius: 20px;
   display: flex;
@@ -103,4 +102,12 @@ header li {
   border-radius: 10px;
   padding: 12px;
   border: none;
+}
+.hero form > input {
+  width: 336px;
+  height: 40px;
+  border-radius: 12px;
+  border: none;
+  background-color: #FF9E0C;
+  color: #fff;
 }
