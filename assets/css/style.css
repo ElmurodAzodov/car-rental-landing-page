@@ -96,6 +96,9 @@ header li {
   justify-content: space-between;
   align-items: center;
 }
+.hero h3 {
+  font-size: 28px;
+}
 .hero form div input, select {
   width: 100%;
   background-color: #e8e8e8;
@@ -110,4 +113,27 @@ header li {
   border: none;
   background-color: #FF9E0C;
   color: #fff;
+}
+
+.features {
+  width: 1440px;
+  height: 314px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.features > div {
+  width: 357px;
+  height: 194px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.features_item > p {
+  text-align: center;
+}
+.features_item > i {
+  font-size: 50px;
 }
