@@ -45,7 +45,9 @@ header li {
   height: 660px;
   border-radius: 40px;
   margin: auto;
-  background-color: #5937e0;
+  background:
+    linear-gradient(rgb(89, 55, 224, 0.7), rgb(89, 55, 224, 0.5)),
+    url(../img/car.jpg) center/cover no-repeat;
   display: flex;
   justify-content: space-around;
   align-items: center;
