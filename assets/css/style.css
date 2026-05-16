@@ -360,3 +360,11 @@ select {
   justify-content: space-between;
   align-items: start;
 }
+
+/* download */
+.download {
+  width: 1440px;
+  height: 535px;
+  margin: auto;
+  border: 1px solid red;
+}
