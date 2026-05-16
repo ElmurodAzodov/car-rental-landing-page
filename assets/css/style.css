@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Atkinson Hyperlegible", sans-serif;
 }
 header {
   width: 1440px;
@@ -247,7 +248,7 @@ select {
 .car-card > button {
   width: 368px;
   height: 50px;
-  background-color: #5937E0;
+  background-color: #5937e0;
   border-radius: 12px;
   color: #fff;
   border: none;
@@ -289,7 +290,6 @@ select {
   width: 1440px;
   height: 606px;
   margin: auto;
-  border: 1px solid red;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -298,19 +298,63 @@ select {
   width: 1296px;
   height: 486px;
   border-radius: 20px;
-  border: 1px solid magenta;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  background:
+    linear-gradient(rgb(89, 55, 224, 0.7), rgb(89, 55, 224, 0.5)),
+    url(../img/car.jpg) center/cover no-repeat;
 }
 .static-in .top {
   width: 756px;
   height: 121px;
-  border: 1px solid blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.static-in .top h2 {
+  font-size: 50px;
+  text-transform: capitalize;
+  color: #fff;
+}
+.static-in .top p {
+  color: #fff;
+  text-align: center;
 }
 .static-in .bottom {
   width: 1296px;
   height: 100px;
-  border: 1px solid blue;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.static-in .bottom .static-car {
+  width: 240px;
+  height: 100px;
+  border-radius: 20px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.static-in .bottom .static-car .icon {
+  width: 72px;
+  height: 68px;
+  background-color: #ff9e0c;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: #fff;
+}
+.static-in .bottom .static-car .st {
+  width: 60px;
+  height: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
 }
