@@ -458,8 +458,13 @@ footer {
   width: 1296px;
   height: 48px;
   border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-
+.footer-top ul {
+  display: flex;
+}
 .footer-bottom {
   width: 1296px;
   height: 171px;
