@@ -364,13 +364,25 @@ select {
 /* download */
 .download {
   width: 1440px;
-  height: 535px;
+  height: 630px;
   margin: auto;
-  border: 1px solid red;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.download-left {
+  width: 536px;
+  height: 368px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: start;
+}
+.download-left h2 {
+  font-size: 50px;
+}
+.download-left p {
+  text-align: justify;
 }
 .download-left .btns {
   width: 386px;
@@ -400,7 +412,8 @@ select {
   align-items: start;
   justify-content: space-around;
 }
-.download-left .dwn, .apps {
+.download-left .dwn,
+.apps {
   color: #fff;
 }
 .download-left .dwn {
@@ -408,4 +421,24 @@ select {
 }
 .download-left .apps {
   font-size: 20px;
+}
+.download-right {
+  width: 427px;
+  height: 577px;
+  position: relative;
+}
+.download-right img {
+  position: absolute;
+}
+.download-right .iphone-1 {
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+  background-color: #fff;
+  border-radius: 50px;
+}
+.download-right .iphone-2 {
+  right: 0;
+  top: 0;
+  z-index: 1;
 }
