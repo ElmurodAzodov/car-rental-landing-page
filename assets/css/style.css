@@ -455,3 +455,9 @@ footer {
   height: 48px;
   border: 1px solid red;
 }
+
+.footer-bottom {
+  width: 1296px;
+  height: 171px;
+  border: 1px solid blue;
+}
