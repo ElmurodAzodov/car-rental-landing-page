@@ -446,8 +446,12 @@ select {
 footer {
   width: 1440px;
   height: 469px;
-  border: 1px solid aqua;
+  border: 1px solid rgb(79, 120, 120);
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .footer-top {
