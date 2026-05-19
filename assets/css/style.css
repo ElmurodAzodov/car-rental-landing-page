@@ -449,3 +449,9 @@ footer {
   border: 1px solid aqua;
   margin: auto;
 }
+
+.footer-top {
+  width: 1296px;
+  height: 48px;
+  border: 1px solid red;
+}
