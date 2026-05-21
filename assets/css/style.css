@@ -516,4 +516,5 @@ footer .bottom-first p {
   height: 112px;
   overflow: hidden;
   text-align: justify;
+  font-weight: bold;
 }
