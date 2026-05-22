@@ -471,8 +471,11 @@ footer {
   width: 1296px;
   height: 171px;
   border: 1px solid blue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-footer li {
+footer .footer-top li {
   list-style: none;
   margin: 0px 10px;
 }
@@ -485,7 +488,6 @@ footer .footer-top i {
 footer a {
   text-decoration: none;
   color: #000;
-  font-weight: bold;
 }
 .footer-top-li {
   display: flex;
@@ -523,4 +525,18 @@ footer .bottom-second {
   width: 180px;
   height: 172px;
   border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+footer .bottom-second ul {
+  width: 180px;
+  height: 119px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  border: 1px solid blue;
 }
