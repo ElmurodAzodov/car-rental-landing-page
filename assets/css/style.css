@@ -39,7 +39,7 @@ header li {
   align-items: center;
 }
 
-.menu .fa-phone {
+.tel .fa-phone {
   background-color: #5937e0;
   padding: 10px 30px 10px 12px;
   border-radius: 50%;
@@ -513,7 +513,6 @@ footer {
 .footer-top {
   width: 1296px;
   height: 48px;
-  border: 1px solid red;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -528,7 +527,6 @@ footer {
 .footer-bottom {
   width: 1296px;
   height: 171px;
-  border: 1px solid blue;
   display: flex;
   justify-content: space-between;
   align-items: center;
