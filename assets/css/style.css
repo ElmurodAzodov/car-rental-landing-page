@@ -518,3 +518,9 @@ footer .bottom-first p {
   text-align: justify;
   font-weight: bold;
 }
+
+footer .bottom-second {
+  width: 180px;
+  height: 172px;
+  border: 1px solid red;
+}
