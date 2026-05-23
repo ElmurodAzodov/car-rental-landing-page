@@ -656,3 +656,19 @@ footer .bottom-second p {
 .footer-bottom-third .btn-2 {
   font-size: 20px;
 }
+
+/* search */
+.search {
+  width: 1440px;
+  height: 535px;
+  border: 1px solid red;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-in {
+  width: 1296px;
+  height: 415px;
+  border: 1px solid aqua;
+}
