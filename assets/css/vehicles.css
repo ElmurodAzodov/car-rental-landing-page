@@ -64,6 +64,12 @@ header li {
     border: none;
     cursor: pointer;
 }
+
+.select .btns > button:hover {
+    transition: 0.5s;
+    background-color: #5937e0;
+    color: #fff;
+}
 .select .btns > button i {
     font-size: 20px;
 }
