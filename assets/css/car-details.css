@@ -99,7 +99,6 @@ header li {
 .about {
   width: 636px;
   height: 740px;
-  border: 1px solid aqua;
 }
 .tech-about .about ul li {
   list-style: none;
